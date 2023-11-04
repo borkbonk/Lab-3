@@ -32,7 +32,7 @@ def test_bubble_sort_invalid():
 
 def test_bubble_sort_n_more_10():
     result = []
-    input_arr = [64, 34, 25, 12, 22, 11, 90, 1, 2, 3, 4]
+    input_arr = [64, 34, 2,235,6,3,5,23,23,4,5,3,2]
 
     result = Lab3.bubble_sort(input_arr, Lab3.SORT_ASCENDING)
 
@@ -50,7 +50,7 @@ def test_bubble_sort_n_equal_0():
 
 def test_bubble_sort_not_a_int():
     result = []
-    input_arr = [1, 2, "c"]
+    input_arr = [1, 2, "je;;p"]
 
     result = Lab3.bubble_sort(input_arr, Lab3.SORT_ASCENDING)
 
